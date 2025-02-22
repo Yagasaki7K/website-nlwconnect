@@ -1,0 +1,9 @@
+{
+    "builds": [
+      {
+        "src": "src/**/*",
+        "use": "@vercel/next"
+      }
+    ],
+    "ignore": ["backend-node/**"]
+  }
