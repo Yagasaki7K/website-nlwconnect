@@ -35,7 +35,7 @@ const Home = () => {
                         <span><i className="uil uil-envelope error" /></span>
                         <input type="email" placeholder="Email" />
                     </div>
-                    <button>Confirmar <i className="uil uil-arrow-right" /></button>
+                    <button onClick={() => window.location.href = '/invite'}>Confirmar <i className="uil uil-arrow-right" /></button>
                 </div>
             </div>
         </HomeDetails>
