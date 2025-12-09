@@ -1,28 +1,28 @@
 {
-    "name": "nlwconnect",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev --turbopack",
-        "vercel": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "commit": "git pull && bun update && bun run vercel && read -p 'Descriptions Commit: ' message && git add . && echo -n \"$message - \" && node getTime.js | xargs -I {} git commit -m \"$message - {}\" && git push"
-    },
-    "dependencies": {
-        "next": "15.1.7",
-        "next-seo": "^6.6.0",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "styled-components": "^6.1.15"
-    },
-    "devDependencies": {
-        "typescript": "^5.7.3",
-        "@types/node": "^20.17.19",
-        "@types/react": "^19.0.10",
-        "@types/react-dom": "^19.0.4",
-        "eslint": "^9.21.0",
-        "eslint-config-next": "15.1.7",
-        "@eslint/eslintrc": "^3.3.0"
-    }
+  "name": "nlwconnect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "vercel": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "commit": "git pull && bun update && bun run vercel && read -p 'Descriptions Commit: ' message && git add . && echo -n \"$message - \" && node getTime.js | xargs -I {} git commit -m \"$message - {}\" && git push"
+  },
+  "dependencies": {
+    "next": "15.1.9",
+    "next-seo": "^6.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^20.17.19",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "15.1.7",
+    "@eslint/eslintrc": "^3.3.0"
+  }
 }
